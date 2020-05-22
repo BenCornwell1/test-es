@@ -24,6 +24,7 @@ import org.apache.kafka.common.config.SslConfigs;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
 // 922252036173b26b316b86d7589305ae89ced98d
+// 1
 
 @Path("/vehicleSale")
 @Produces({"application/json"})
