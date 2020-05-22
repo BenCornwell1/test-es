@@ -47,12 +47,12 @@ metadata:
     version: 0.2.3
   creationTimestamp: null
   labels:
-    image.opencontainers.org/title: rest-es-consumer
+    image.opencontainers.org/title: kabanero
     stack.appsody.dev/id: java-openliberty
     stack.appsody.dev/version: 0.2.3
   name: rest-es-consumer
 spec:
-  applicationImage: dev.local/rest-es-consumer
+  applicationImage: dev.local/kabanero
   createKnativeService: false
   expose: true
   livenessProbe:
