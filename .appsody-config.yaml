@@ -1,0 +1,3 @@
+id: "20200521232340.41094500"
+project-name: rest-es-consumer
+stack: docker.io/kabanero/java-openliberty:0.2

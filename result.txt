@@ -1,0 +1,1 @@
+{"apiKey":"apinfual","vehicleSale":{"cost":71.27,"edition":"sosawkugpu","model":"gajgagu","registration":"kalpoji","retailerId":"353802316152832","salePrice":33.19,"saleTime":"20:00"}}
