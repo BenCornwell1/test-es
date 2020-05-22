@@ -57,7 +57,7 @@ public class VehicleSaleConsumer {
             }
             count++;
             if (count < 1000 ) {
-                logger.warning("Topics assignment not complete");
+                logger.warning("Topics assignment not fully complete");
                 exit = true;
             }
         }
