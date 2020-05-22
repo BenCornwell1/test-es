@@ -23,6 +23,8 @@ import org.apache.kafka.common.config.SaslConfigs;
 import org.apache.kafka.common.config.SslConfigs;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
+// 922252036173b26b316b86d7589305ae89ced98d
+
 @Path("/vehicleSale")
 @Produces({"application/json"})
 public class VehicleSaleConsumer {
@@ -55,7 +57,7 @@ public class VehicleSaleConsumer {
             }
             count++;
             if (count < 1000 ) {
-                logger.warning("Topics not fully assigned");
+                logger.warning("Topics assignment not complete");
                 exit = true;
             }
         }
